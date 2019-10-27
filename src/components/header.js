@@ -21,8 +21,8 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/"><img alt="" src = {logo} style={{height:"220px", width:"250px", marginTop:"-75px" , marginBottom:"-75px"}}/></NavbarBrand>
+      <Navbar color="light" light expand="md" position="static" fixed={`top`}>
+        <NavbarBrand href="/"><img alt="" src = {logo} style={{height:"220px", width:"250px", marginTop:"-75px" , marginBottom:"-75px", marginLeft:"-50px"}}/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -38,7 +38,7 @@ const Header = (props) => {
             
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Jobs
+                Current Jobs
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>

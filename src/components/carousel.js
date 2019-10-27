@@ -93,13 +93,13 @@ class CarouselView extends Component {
     <img
       id = "imgcarousel"
       className="d-block w-100"
-      src={require("../images/image2.jpg")}
+      src={require("../images/image7.jpg")}
       alt="First slide"
-      style={{height:"575px"}}
+      style={{maxHeight:"675px"}}
     />
     <Carousel.Caption>
-      <h3 style={{color:"#337ab7" , fontSize:"70px", paddingBottom:"140px"}}>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3 style={{color:"#0BA9F9" , fontSize:"70px", paddingBottom:"190px"}}>First slide label</h3>
+      
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -108,26 +108,56 @@ class CarouselView extends Component {
       className="d-block w-100"
       src={require("../images/image3.jpg")}
       alt="Third slide"
-      style={{height:"575px"}}
+      style={{maxHeight:"675px"}}
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3 style={{color:"#0BA9F9" , fontSize:"70px", paddingBottom:"190px"}}>Second slide label</h3>
+     
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
      id = "imgcarousel"
       className="d-block w-100"
-      src={require("../images/image4.jpg")}
+      src={require("../images/image2.jpg")}
       alt="Third slide"
-      style={{height:"575px"}}
+      style={{maxHeight:"675px"}}
       />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3 style={{color:"#0BA9F9" , fontSize:"70px", paddingBottom:"190px"}}>Third slide label</h3>
+      
+    </Carousel.Caption>
+  </Carousel.Item>
+
+  <Carousel.Item>
+    <img
+     id = "imgcarousel"
+      className="d-block w-100"
+      src={require("../images/image10.jpg")}
+      alt="Third slide"
+      style={{maxHeight:"675px"}}
+      />
+
+    <Carousel.Caption>
+      <h3 style={{color:"#0BA9F9" , fontSize:"70px", paddingBottom:"190px"}}>Third slide label</h3>
+      
+    </Carousel.Caption>
+  </Carousel.Item>
+
+  <Carousel.Item>
+    <img
+     id = "imgcarousel"
+      className="d-block w-100"
+      src={require("../images/image5.jpg")}
+      alt="Third slide"
+      style={{maxHeight:"675px"}}
+      />
+
+    <Carousel.Caption>
+      <h3 style={{color:"#0BA9F9" , fontSize:"70px", paddingBottom:"190px"}}>Third slide label</h3>
+      
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

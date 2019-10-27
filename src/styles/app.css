@@ -1,7 +1,7 @@
 main {
    
     position: relative;
-    z-index: 3;
+    z-index: 100;
    overflow: hidden;
   }
 
@@ -16,6 +16,29 @@ main {
   
   } */
 
+  .parallax-window {
+    
+    min-height: 500px;
+    background: url("../images/image9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .team h4 {
+    color:#0BA9F9;
+  }
+  
+  .team .text-center {
+    padding-top:0px;
+    margin-bottom:30px;
+    padding-bottom:10px;
+  }
+  
+  .team img {
+    border-radius:8px;
+   
+  }
   
   main section {
     width: 70%;
@@ -36,11 +59,23 @@ main {
    border-right: 3px solid #ddd;
   }
   
+ .section h2 {
+    font-size: 3.5rem;
+    color: rgb(19, 18, 18);
+    text-transform: uppercase;
+   line-height: 4.0rem; 
+   padding-right: 10px;
+   border-right: 3px solid #ddd;
+   text-align: center;
+   padding-bottom: 10px;
+  }
+
   main section div{
       margin-left: 20px;
   }
   .section {
     position: relative;
+    
   }
   .section .title-area {
     max-width: 760px;
@@ -61,6 +96,11 @@ main {
     
     display: inline;
   }
+
+  .col-md-3 {
+    
+    display: inline;
+  }
   .info-icon {
     text-align: center;
   }
@@ -74,6 +114,7 @@ main {
     margin-top: 15px;
     color: #777777;
   }
+  
   
   
   /*------------- SERVICES -------------------*/
@@ -163,23 +204,6 @@ main {
       
       
   
-      .services p.service-icon {
-        font-size: 2.4rem;
-        padding: 10px 30px;
-        margin: 0px 0px 30px 0px;
-        
-      }
-      .services p.service-title{
-        font-size: 2.1rem;
-        padding: 0;
-        margin: 0;
-      }
-      
-      .services p:last-of-type{
-        padding: 0px 20px; 
-        text-align: left;
-      }
-  
       
   }
   
@@ -198,23 +222,7 @@ main {
     }
     
     
-    .services p.service-icon {
-      font-size: 2.4rem;
-      padding: 10px 30px;
-      margin: 0px 0px 30px 0px;
-      
-    }
-    .services p.service-title{
-      font-size: 2.1rem;
-      padding: 0;
-      margin: 0;
-    }
     
-    .services p:last-of-type{
-      padding: 0px 20px; 
-      text-align: left;
-    }
-  
     }
   
   
@@ -232,30 +240,6 @@ main {
       padding: 0px 90px;
     }
     
-   div.services {
-     display: grid;
-     grid-template-columns: 1fr;
-    }
-     div.services div {
-      width: 70%;
-    }
-  
-    .services p.service-icon {
-      font-size: 2.4rem;
-      padding: 10px 30px;
-      margin: 0px 0px 30px 0px;
-      
-    }
-    .services p.service-title{
-      font-size: 2.1rem;
-      padding: 0;
-      margin: 0;
-    }
-    
-    .services p:last-of-type{
-      padding: 0px 20px; 
-      text-align: left;
-    }
   
     
   }
@@ -274,30 +258,7 @@ main {
       padding: 0px 10px;
     }
     
-    div.services {
-     display: grid;
-     grid-template-columns: 1fr;
-    }
-    div.services div {
-      width: 80%;
-    }
-  
-    .services p.service-icon {
-      font-size: 2.4rem;
-      padding: 10px 30px;
-      margin: 0px 0px 30px 0px;
-      
-    }
-    .services p.service-title{
-      font-size: 2.1rem;
-      padding: 0;
-      margin: 0;
-    }
     
-    .services p:last-of-type{
-      padding: 0px 20px; 
-      text-align: left;
-    }
   
   
    
