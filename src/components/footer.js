@@ -8,13 +8,17 @@ class Footer extends Component {
     return (
      
       <footer>
-      <div>
-          <h3 style={{fontSize:"18px"}}>contact Info</h3>
-          <p>Apollo<br/>Near Dupaul Wood Treatment<br/>P.O.BOX 1001<br/>Takoradi<br/>jessynaggy@gmail.com</p>
+      {/* <div>
+
+          <p>Home<br/>About Us<br/>Services<br/>Gallery<br/>Contact Us</p>
+       </div> */}
+
+       <div>
+         <p>@ 2018 | A.K.A Productive Solutions Ltd<br/>v3.5</p>
        </div>
       <div>
-      <h3 style={{fontSize:"18px"}}>HotLines</h3>
-      <p>+233 24 262 1192<br/>+233 27 540 4942</p>
+       <h3 style={{fontSize:"18px"}}>Socail Networks</h3>
+      
       <ul>
         <li><Link to="#"><i className="fa fa-facebook-f fa-2x" aria-hidden="true"></i></Link></li>
         <li><Link to="#"><i className="fa fa-twitter fa-2x"  aria-hidden="true"></i></Link></li>

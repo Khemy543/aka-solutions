@@ -18,8 +18,8 @@ main {
 
   .parallax-window {
     
-    min-height: 500px;
-    background: url("../images/image9.jpg");
+    min-height: 440px;
+    background: url("../images/image8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -281,7 +281,7 @@ main {
     
     }
     footer ul li a {
-   font-size: 1.8rem;
+   padding: 0rem;
     }
     
     
