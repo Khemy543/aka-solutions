@@ -7,12 +7,10 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+   } from 'reactstrap';
   import 'bootstrap/dist/css/bootstrap.css';
-  import logo from '../images/logo.PNG'
+  import logo from '../images/logo.PNG';
+  import { Link } from 'react-scroll';
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,34 +25,62 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="#">Home</NavLink>
+              <NavLink href="#">
+              <Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration= {500}
+>
+                Home
+                </Link>
+                </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">About Us</NavLink>
+              <NavLink href="#">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration= {500}
+            >
+                About Us
+                </Link>
+                </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Services</NavLink>
+              <NavLink href="#">
+              <Link
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration= {500}
+            >
+              Services
+              </Link>
+              </NavLink>
             </NavItem>
             
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Current Jobs
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+           
             <NavItem>
-              <NavLink href="#">Contact Us</NavLink>
+              <NavLink href="#">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration= {500}
+            >
+              Contact Us
+              </Link>
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 main {
    
     position: relative;
@@ -5,9 +10,7 @@ main {
    overflow: hidden;
   }
 
-#imgcarousel{
-    height: "575px";
-  }
+
   
   /* @media(max-width:768px){
     #imgcarousel{
